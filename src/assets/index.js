@@ -1,7 +1,7 @@
-import work1top from "./Kinbechtop.webp"
-import work1mid1 from "./Kinbechmid1.webp"
-import work1mid2 from "./Kinbechmid2.webp"
-import work1bottom from "./Kinbechbottom.webp"
+import work1top from "./kinbechtop.webp"
+import work1mid1 from "./kinbechmid1.webp"
+import work1mid2 from "./kinbechmid2.webp"
+import work1bottom from "./kinbechbottom.webp"
 
 import work2top from "./searchstudytop.webp"
 import work2mid1 from "./searchstudymid1.webp"
