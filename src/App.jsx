@@ -2,10 +2,20 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import CTA from './CTA';
-import {Home, WorksLists, AboutMe, HireMe, Kinbech, Searchstudy, Linkup, Swachha, DexitApp, EverestTravel} from './components'
+import {Home, WorksLists, AboutMe, HireMe, Kinbech, Searchstudy, Linkup, DexitApp, EverestTravel} from './components'
 import {Route, Routes} from "react-router-dom"
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
 return (
   <>
       < Navbar />
@@ -18,7 +28,6 @@ return (
           <Route path="/Kinbech" element={< Kinbech />}  />
           <Route path="/Linkup" element={< Linkup />}  />
           <Route path="/Searchstudy" element={< Searchstudy />}  />
-          <Route path="/Swachha" element={< Swachha />}  />
           <Route path="/EverestTravel" element={< EverestTravel />}  />
           <Route path="/DexitApp" element={< DexitApp />}  />
         </Routes>

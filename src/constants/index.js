@@ -1,4 +1,4 @@
-import { people01, people02, facebook, instagram, behance, dribble, XD, PS, AI, AE, Sketch, Slime, mail, port1, port2, port3, port4, port5, dokkanlogo, dexitlogo, linkuplogo, kinbechlogo, ui, ux, graphic, webdev, work3, coloredbehance, coloredpintrest, coloreddribble, coloredlinkedin, coloredinstagram, coloredfacebook, Figma} from "../assets";
+import { people01, people02, facebook, instagram, behance, dribble, XD, PS, AI, AE, Sketch, Slime, mail, port1, port2, port3, port4, port5, dokkanlogo, dexitlogo, linkuplogo, kinbechlogo, ui, ux, graphic, webdev, coloredbehance, coloredpintrest, coloreddribble, coloredlinkedin, coloredinstagram, coloredfacebook, Figma} from "../assets";
 
 export const features = [
   {

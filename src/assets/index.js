@@ -1,3 +1,25 @@
+import work1top from "./Kinbechtop.webp"
+import work1mid1 from "./Kinbechmid1.webp"
+import work1mid2 from "./Kinbechmid2.webp"
+import work1bottom from "./Kinbechbottom.webp"
+
+import work2top from "./searchstudytop.webp"
+import work2mid1 from "./searchstudymid1.webp"
+import work2mid2 from "./searchstudymid2.webp"
+import work2bottom from "./searchstudybottom.webp"
+
+import work3top from "./linkupapptop.webp"
+import work3mid from "./linkupappmid.webp"
+import work3bottom from "./linkupappbottom.webp"
+
+import work4top from "./dexitapptop.webp"
+import work4mid from "./dexitappmid.webp"
+import work4bottom from "./dexitappbottom.webp"
+
+import work5top from "./everesttop.webp"
+import work5mid from "./everestmid.webp"
+import work5bottom from "./everestbottom.webp"
+
 import dokkanlogo from "./dokkanlogo.webp";
 import dexitlogo from "./dexitlogo.webp";
 import linkuplogo from "./linkuplogo.webp";
@@ -45,14 +67,9 @@ import port3 from "./linkup.webp";
 import port4 from "./everesttravel.webp";
 import port5 from "./dexitappwork.webp";
 import Map from "./map.svg";
-import work1 from "./kinbechwork.png"
-import work2 from "./searchstudy.png"
 import Homepageimage from "./mainscreen.webp"
-import Dexit from "./dexit.webp"
+import dexit from "./dexit.webp"
 import Hamrodokaan from "./hamrodokaan.webp"
-import work5 from "./port4.png"
-import work4 from "./dexitappport.png"
-import work3 from "./linkupapp.png"
 import Myprofile from "./myprofile2.webp"
 import Resumepdf from "./Resume.pdf"
 
@@ -103,13 +120,30 @@ export {
   coloredfacebook,
   Map,
   ContactImage,
-  work1,
-  work2,
-  work3,
-  work4,
-  work5,
+  work3top,
+  work3mid,
+  work3bottom,
+
+  work1top,
+  work1mid1,
+  work1mid2,
+  work1bottom,
+
+  work2top,
+  work2mid1,
+  work2mid2,
+  work2bottom,
+
+  work4top,
+  work4mid,
+  work4bottom,
+
+  work5top,
+  work5mid,
+  work5bottom,
+
   Homepageimage,
-  Dexit,
+  dexit,
   Hamrodokaan,
   download,
   Myprofile,

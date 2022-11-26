@@ -25,11 +25,11 @@ const Business = () => {
   return (
     <section id="features" className={layout.section}>
       <div className={`${layout.sectionInfo}`}>
-        <img src={connect} alt="connect" className="md:w-[50%] md:h-[50%] w-[60%] h-[60%] object-contain mb-4 md:mb-4 mt-4 md:mt-0" />
-        <h2 className={styles.heading2}>
+        <img src={connect} alt="connect" className="md:w-[50%] md:h-[50%] w-[60%] h-[60%] object-contain mb-4 md:mb-4 mt-4 md:mt-0" data-aos="zoom-in" data-aos-duration="1500"/>
+        <h2 className={styles.heading2} data-aos="fade-right" data-aos-duration="1500" data-aos-delay='100'>
         My approach to providing<br className="sm:block hidden"/>UI/UX Design Services. 
         </h2>
-        <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[600px] mt-5`} data-aos="fade-right" data-aos-delay='200' data-aos-duration="1500">
         Specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration, streamlined projects which strive for better results.
         </p>
         <Link to="/HireMe">

@@ -21,7 +21,6 @@ import Searchstudy from "./Searchstudy";
 import Linkup from "./Linkup";
 import DexitApp from "./DexitApp";
 import EverestTravel from "./EverestTravel";
-import Swachha from "./Swachha";
 
 export {
   Navbar,
@@ -47,5 +46,4 @@ export {
   Linkup,
   DexitApp,
   EverestTravel,
-  Swachha,
 };

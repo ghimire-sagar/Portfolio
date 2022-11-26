@@ -1,11 +1,11 @@
-import {Dexit} from '../assets';
+import {dexit} from '../assets';
 import styles, {layout} from '../style';
 import Button2 from './Button2';
 
 const Project = () =>  (
     <section id='project' className={`${layout.sectionReverse} sm:mb-10 mb-3`}>
       <div className={layout.sectionImgReverse}>
-        <img src={Dexit} alt="Dexit Network" className="w-[100%] h-[100%] relative z-[5] rounded-[20px]" />
+        <img src={dexit} alt="Dexit Network" className="w-[100%] h-[100%] relative z-[5] rounded-[20px]" />
       </div>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Dexit Blockchain Website</h2>

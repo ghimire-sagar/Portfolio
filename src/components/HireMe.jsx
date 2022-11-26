@@ -26,7 +26,7 @@ const HireMe = () => {
         <div className={`${styles.boxWidth}`}>
           <div className={`w-full lg:mt-14 mt-10 text-poppins`}>
             <img src={Map} alt="mapwebsite" className=" absolute w-full mt-6" />
-            <h1 className="absolute lg:mt-32 md:mt-24 lg:left-32 mt-16 left-10 flex-1 font-poppins font-black uppercase lg:text-[52px] md:text-[48px] text-[24px] text-white ss:leading-[70px] leading-[50px]">
+            <h1 className="absolute lg:mt-32 md:mt-24 lg:left-32 mt-16 left-10 flex-1 font-poppins font-black uppercase lg:text-[52px] md:text-[48px] text-[24px] text-white ss:leading-[70px] leading-[50px]"  data-aos="fade-down" data-aos-duration="1000">
               Get In
               <span className="text-secondary">{" "}Touch</span> {" "}
             </h1>
@@ -35,11 +35,11 @@ const HireMe = () => {
             <div className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 lg:mt-64 md:mt-48 mt-28 rounded-[20px] mx-auto z-[10] bg-cardhover text-white">
               <div className="flex flex-col justify-between">
                 <div>
-                  <h2 className="text-4xl lg:text-5xl font-bold lg:mr-6 mr-4 leading-tight">Lets talk about Designs!</h2>
-                  <div className="text-dimWhite mt-8 font-medium">
+                  <h2 className="text-4xl lg:text-5xl font-bold lg:mr-6 mr-4 leading-tight" data-aos="fade-right" data-aos-duration="1500" data-aos-delay='100'>Lets talk about Designs!</h2>
+                  <div className="text-dimWhite mt-8 font-medium" data-aos="fade-right" data-aos-delay='200' data-aos-duration="1500">
                     Want Designs? Send me an <span className="text-secondarynight font-bold">email</span> to get new and updated designs.
                   </div>
-                  <img src={ContactImage} alt="contact" className=" w-[70%] h-[70%] mt-8 bg-containr items-center" />
+                  <img src={ContactImage} alt="contact" className=" w-[70%] h-[70%] mt-8 bg-containr items-center" data-aos="zoom-in" data-aos-duration="1500"/>
                 </div>
               </div>
               <div className="lg:mt-12 md:mt-6 mt-12">
